@@ -1,0 +1,40 @@
+{
+    "name": "vue-ts-plugin",
+    "displayName": "Vue ts plugin",
+    "description": "Vue ts less vue-property-decorator",
+    "version": "0.0.1",
+    "icon": "images/vue-logo.png",
+    "publisher": "xiangge-maker",
+    "engines": {
+        "vscode": "^1.14.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/sdras/vue-vscode-snippets.git"
+	},
+    "keywords": [
+		"Vue ts",
+		"Vue 3 ts",
+		"Vue 2 ts",
+		"Vue ts Snippets"
+	],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "vue",
+                "path": "./snippets/init.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/vue-methods.code-snippets"
+            },
+            {
+                "language": "vue-script",
+                "path": "./snippets/vue-methods.code-snippets"
+            }
+        ]
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "Vue ts beforeCreate": {
+        "prefix": "ts-beforeCreate",
+        "body": [
+            "private beforeCreate(): void {",
+            "",
+            "}",
+        ],
+        "description": "Vue ts beforeCreate method",
+    },
+
+    "Vue ts created": {
+        "prefix": "ts-created",
+        "body": [
+            "private created(): void {",
+            "",
+            "}",
+        ],
+        "description": "Vue ts created method",
+    },
+
+    "Vue ts beforeMount": {
+        "prefix": "ts-beforeMount",
+        "body": [
+            "private beforeMount(): void {",
+            "",
+            "}",
+        ],
+        "description": "Vue ts created beforeMount",
+    },
+
+    "Vue ts mounted": {
+        "prefix": "ts-mounted",
+        "body": [
+            "private mounted(): void {",
+            "",
+            "}",
+        ],
+        "description": "Vue ts created mounted",
+    },
+
+    "Vue ts beforeDestory": {
+        "prefix": "ts-beforeDestory",
+        "body": [
+            "private beforeDestory(): void {",
+            "",
+            "}",
+        ],
+        "description": "Vue ts created beforeDestory",
+    },
+
+    "Vue ts destory": {
+        "prefix": "ts-destory",
+        "body": [
+            "private destory(): void {",
+            "",
+            "}",
+        ],
+        "description": "Vue ts created destory",
+    },
+
+    "Vue ts beforeUpdate": {
+        "prefix": "ts-beforeUpdate",
+        "body": [
+            "private beforeUpdate(): void {",
+            "",
+            "}",
+        ],
+        "description": "Vue ts created beforeUpdate",
+    },
+
+    "Vue ts updated": {
+        "prefix": "ts-updated",
+        "body": [
+            "private updated(): void {",
+            "",
+            "}",
+        ],
+        "description": "Vue ts created updated",
+    }
+}

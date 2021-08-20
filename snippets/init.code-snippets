@@ -1,0 +1,24 @@
+{
+	"Vue ts less component": {
+		"prefix": "vue-ts-less",
+		"body": [
+			"<template>",
+			"        <div class=\"${TM_FILENAME_BASE}\"></div>",
+			"</template>",
+			"",
+			"<script lang=\"ts\">",
+			"import { Vue, Component, Prop } from 'vue-property-decorator'",
+			"",
+			"@Component({})",
+			"export default class ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/} extends Vue {",
+			"",
+			"}",
+			"</script>",
+			"",
+			"<style lang=\"less\">",
+			"",
+			"</style>"
+		],
+		"description": "Vue ts and less decorator component"
+	},
+}
